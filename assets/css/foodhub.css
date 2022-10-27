@@ -592,25 +592,25 @@ html {
 .shape-6 {
 	right: -9px;
 	top: 35%;
-	animation: scaleUp 2s 3s ease-in-out infinite;
+	/* animation: scaleUp 2s 3s ease-in-out infinite; */
 }
 
 .shape-7 {
 	top: 50%;
 	left: -15px;
-	animation: scaleUp 3s ease-in-out infinite;
+	/* animation: scaleUp 3s ease-in-out infinite; */
 }
 
 .shape-8 {
 	top: -10px;
 	left: 15%;
-	animation: moveUp 3s 1s ease-in-out infinite;
+	/* animation: moveUp 3s 1s ease-in-out infinite; */
 }
 
 .shape-9 {
 	bottom: -20px;
 	left: 5%;
-	animation: moveUp 3s ease-in-out infinite;
+	/* animation: moveUp 3s ease-in-out infinite; */
 }
 
 .about-right .section-title {
@@ -667,6 +667,8 @@ html {
 
 .product .section-text {
 	margin-bottom: 60px;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .products-grid {
